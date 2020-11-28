@@ -1,0 +1,29 @@
+#mainNav {
+  background-color: rgba(12, 32, 60, 0.9);
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: rgba(12, 32, 60, 0.9);
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color:white;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color:white;
+  }
+}

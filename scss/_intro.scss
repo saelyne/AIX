@@ -1,0 +1,27 @@
+.intro {
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-text {
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+  }
+  .intro .intro-img {
+    float: left;
+    width: 45%;
+  }
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 50%;
+  }
+}
