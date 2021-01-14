@@ -93,6 +93,14 @@
     }
   }
 
+  .section-info {
+    text-transform: lowercase;
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+  }
+
   .section-heading {
     text-transform: uppercase;
     margin-bottom: 0rem !important;
